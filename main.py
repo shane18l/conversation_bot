@@ -68,9 +68,11 @@ def bot_response(text, context):
     playsound("output.mp3")
 
 context = ["""You are going to have a conversation with the user. Try to simulate a
-           real conversation, so keep responses to around 10 seconds."""]
+           real conversation, so keep responses to around 15 seconds."""]
 
-print("Give me a scenario, and we can have a conversation")
+
+playsound("intro.mp3")
+print("Give me a scenario, any information about my personality, and we can have a conversation")
 bot_settings = user_input()
 context.append(bot_settings)
 
