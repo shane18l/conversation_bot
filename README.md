@@ -1,6 +1,5 @@
-# val_optimizer
-# Anime Recommendation System  
-A project that suggests anime based on user preferences using content-based and collaborative filtering techniques.
+# Conversation Trainer Bot
+A bot that you can converse with to test out your conversation skills in a multitude of scenarios
 
 # Setup and Installation
 1) Clone the repository: git clone https://github.com/shane18l/conversation_bot.git
